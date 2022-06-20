@@ -1,0 +1,312 @@
+@media all and (max-width: 1200px){
+h2{
+	font-size: 45px;
+}
+h3{
+	font-size:1.6rem;
+}
+ .section-heading p {
+	width: 100%;
+	margin-left: 0;
+}
+/*banner area*/
+.button-area{
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	margin-top: 2rem;
+}
+.button-area p{
+	margin-left:0;
+	margin-right: 0;
+}
+
+.download-apps img{
+	margin-top:1rem;
+	margin-right:0;
+ 
+}
+
+.footer-area{
+	margin-top:-7.5rem;
+}
+.pricing-header{
+	width: 30%;
+}
+
+}
+
+@media all and (min-width:991px){
+	.nav{
+		display:flex !important;
+		flex-direction: row !important;
+	}
+}
+@media all and (max-width: 991px){
+  h2{
+	font-size: 35px;
+	}
+	h3 {
+	font-size: 1.4rem;
+}
+	.section-padding{
+		padding:2rem 0;
+	}
+  .section-heading h3 {
+	width: 100%;
+	margin-bottom: 1rem;
+  }
+
+ .header-heading h3 {
+	width: 100%;
+}
+.header-heading p {
+	width: 100%;
+}
+	#menu{
+		display:block;
+		z-index:1;
+	}
+
+.nav-area .nav {
+	display: none;
+	background: rgba(159, 28, 28, 0.48);
+	width: 40%;
+	float: right;
+	margin-top: -2.4rem;
+	height: auto;
+	padding: 2rem;
+	justify-content: center;
+}
+    /*Banner area*/
+  
+    .banner-area .row{
+    	display:flex;
+    	flex-direction:column;
+    }
+    .banner-area .col-md-7{
+    	max-width:100%;
+    }
+  .banner-left{
+  	margin:3rem auto;
+  	text-align: center;
+  }
+.banner-left p{
+	margin:auto;
+	margin-top: 1rem;
+}
+.button-area {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.banner-area .col-md-5 {
+	max-width: 54%;
+	margin: 2rem auto;
+}
+.banner-right{
+	margin-left:0;
+}
+ /*a-features*/
+ .features-img {
+	 width: 100%; 
+	text-align: center;
+}
+ .features-img img {
+	width: 80%;
+	height: auto;
+}
+ .a-features-right{
+ 	text-align: center;
+ 	margin-top:3rem;
+ }
+.features-header p{
+	width:100%;
+	margin: auto;
+}
+/*jackpots area*/
+.jackpoots-up {
+	text-align: center;
+}
+ .jackpots-header {
+	 border-right:none; 
+	 margin-left: 0; 
+}
+.jackpots-header h3 {
+	 margin-left:0rem; 
+	width: 100%;
+}
+ .jacpots-p p {
+	width: 100%;
+	margin: 2rem auto;
+}
+.jackpots-down .row{
+margin: auto;
+justify-content: center;
+}
+
+/*Design area*/
+.design-right {
+	margin-top: 2rem;
+}
+/*ULT-fetures*/
+.ult-header {
+	text-align: center;
+}
+.ult-header h3 {
+	width: 100%;
+}
+.ult-header p {
+	width: 100%;
+}
+/*awesome-area*/
+.pricing-header{
+	width: 40%;
+}
+/*Client*/
+.client{
+	max-width: 100%;
+}
+.testiminial {
+	margin-top: 5rem;
+}
+.single-client{
+	margin-left:-10rem;
+}
+/*Download Area*/
+.download{
+	display: flex;
+	flex-direction: column;
+}
+.download-apps img {
+	margin-top: 1rem;
+	margin-right: 2rem;
+}
+.download-discriosion{
+	margin:3rem 0;
+}
+  .footer-area{
+    	margin-top:-6.3rem;
+    }
+
+}
+
+@media all and (max-width: 767px){
+.nav-area .nav{
+	width: 65%;
+}
+ 
+.features-header {
+	text-align: center;
+}
+/*Choosc Area*/
+
+.choosc-header{
+	text-align: center;
+}
+/*awesome-area*/
+.free-pric, .pro-pric {
+	width: 80%;
+	margin: auto;
+	margin-top: 1rem;
+}
+.pricing-header {
+	width: 61%;
+}
+.annually-pric{
+	flex-direction:column;
+}
+.monthly-pric{
+	flex-direction: column;
+}
+/*Client Area*/
+.client-img{
+	max-width:100%;
+	width: 100%;
+	margin: auto;
+}
+.client {
+	max-width:100%;
+	width: 100%;
+	margin:3rem auto;
+}
+.client-header{
+	width:100%;
+}
+.testiminial {
+	margin-left: 0;
+	margin-top: 0;
+}
+.single-client{
+	margin-left:0;
+}
+.download-discriosion {
+	 width: 100%; 
+	padding-left: 4rem;
+	text-align: center;
+}
+.footer-area {
+	margin-top: -4.2rem;
+}
+.footer-nav .nav{
+	justify-content:center;
+}
+
+}
+
+@media all and (max-width: 480px){
+	h2 {
+	font-size: 25px;
+}
+	h3 {
+	font-size: 1.4rem;
+}
+.nav-area .nav{
+	width: 80%;
+}
+.banner-left {
+	 margin-left: 0rem; 
+	margin-top: 2rem;
+}
+.banner-link a{
+	padding-right:0;
+}
+.design-button {
+	width: 55%;
+}
+.pricing-header{
+	width:100%;
+}
+.free-pric, .pro-pric {
+	width: 100%;
+	margin: auto;
+	margin-top: 1rem;
+	padding: 0;
+}
+.testiminial p {
+	width: 100%;
+	font-size: 13px;
+}
+.single-client-details {
+	margin-top: 2rem;
+	margin-left: 2rem;
+}
+/*Faq Area*/
+.single-frequent h4 {
+	font-size: 15px;
+	width: 80%;
+}
+.card-body {
+	padding: 1.25rem 0;
+	font-size: 15px;
+}
+.download-discriosion {
+	 padding-left: 0; 
+}
+.footer-area {
+	margin-top: -3.8rem;
+}
+
+
+
+}
